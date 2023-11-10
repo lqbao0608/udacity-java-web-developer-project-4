@@ -1,0 +1,13 @@
+2023-09-24 11:42:49,635 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests using Java 17.0.6 on Lenovo with PID 16788 (started by luong in D:\udacity\JavaWebDeveloper\nd035-c4-Security-and-DevOps-master\starter_code)
+2023-09-24 11:42:49,643 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-09-24 11:42:49,644 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-24 11:42:55,013 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 5.677 seconds (JVM running for 7.636)
+2023-09-24 11:42:55,493 INFO c.e.d.c.UserController [main] File [UserController#createUser]: Create username baoluong is successfully!
+2023-09-24 11:42:55,505 ERROR c.e.d.c.UserController [main] [UserController][createUser]: password length must be greater than 7.
+2023-09-24 11:42:55,505 ERROR c.e.d.c.UserController [main] File [UserController#createUser]: password confirmed does not match password.
+2023-09-24 11:42:55,607 INFO c.e.d.c.OrderController [main] File:[OrderController#submit]: the order requests successes!
+2023-09-24 11:42:55,608 ERROR c.e.d.c.OrderController [main] File [OrderController#submit]: Username is baoluong not found!
+2023-09-24 11:42:55,608 INFO c.e.d.c.OrderController [main] File [OrderController#submit]: The order requests failures!
+2023-09-24 11:42:55,609 INFO c.e.d.c.OrderController [main] File [OrderController#getOrdersForUser]: The get order for user requests successes!
+2023-09-24 11:42:55,610 ERROR c.e.d.c.OrderController [main] File [OrderController#getOrdersForUser]: Username is baoluong not found!
+2023-09-24 11:42:55,610 INFO c.e.d.c.OrderController [main] File [OrderController#getOrdersForUser]: The get order for user requests failures!
